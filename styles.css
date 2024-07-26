@@ -1,0 +1,79 @@
+#ctl00_mainContent_divContent ul li {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+#ctl00_mainContent_divContent ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+}
+
+#ctl00_mainContent_divContent ul li:hover {
+  transform: translateX(5px);
+}
+
+#ctl00_mainContent_divContent ul li .date-prefix {
+  color: #666;
+  font-size: 12px;
+  font-weight: normal;
+  margin-right: 5px;
+}
+
+/* Color coding */
+#ctl00_mainContent_divContent ul li.exam-schedule {
+  background-color: #ffe0b2; /* Light Orange */
+}
+
+#ctl00_mainContent_divContent ul li.grades {
+  background-color: #c8e6c9; /* Light Green */
+}
+
+#ctl00_mainContent_divContent ul li.exam-rules {
+  background-color: #ffcdd2; /* Light Red */
+}
+
+#ctl00_mainContent_divContent ul li.testing {
+  background-color: #e1bee7; /* Light Purple */
+}
+
+#ctl00_mainContent_divContent ul li.registration {
+  background-color: #bbdefb; /* Light Blue */
+}
+
+#ctl00_mainContent_divContent ul li.announcement {
+  background-color: #fff9c4; /* Light Yellow */
+}
+
+/* Hover effects */
+#ctl00_mainContent_divContent ul li:hover a {
+  color: #ffffff;
+}
+
+#ctl00_mainContent_divContent ul li.exam-schedule:hover {
+  background-color: #ffa726; /* Darker Orange */
+}
+
+#ctl00_mainContent_divContent ul li.grades:hover {
+  background-color: #66bb6a; /* Darker Green */
+}
+
+#ctl00_mainContent_divContent ul li.exam-rules:hover {
+  background-color: #ef5350; /* Darker Red */
+}
+
+#ctl00_mainContent_divContent ul li.testing:hover {
+  background-color: #ab47bc; /* Darker Purple */
+}
+
+#ctl00_mainContent_divContent ul li.registration:hover {
+  background-color: #42a5f5; /* Darker Blue */
+}
+
+#ctl00_mainContent_divContent ul li.announcement:hover {
+  background-color: #ffee58; /* Darker Yellow */
+}
